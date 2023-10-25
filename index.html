@@ -1,0 +1,45 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Autofixer</title>
+        <link rel="stylesheet" href="main.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <section class="container md:p-20 h-[100vh] items-center flex ">
+
+        
+        <div class="container flex md:justify-between justify-center items-center h-[560px] w-full font-bai ">
+            <div class="img-box relative justify-center items-end w-[35%] h-full md:flex hidden">
+                <img class="w-full h-full" src="./sign-up.png" />
+                <a href="./signin.html" class="absolute text-secondary-color bottom-5 underline">Already have an account?</a>
+            </div>
+            <div class="form bg-accent-color w-full min-h-[100%] py-0 px-5 m-5 md:m-0 md:px-14 md:w-[65%] ">
+                <h1 class="text-3xl text-center font-bold my-5">Sign up</h1>
+                <form action="" method="post" class="flex flex-col w-full h-fit space-y-2 py-0">
+                    <label for="name">Full Name:</label>
+                    <input type="text" name="full-name" id="name" placeholder="It's urgent!!!">
+
+                    <label for="email">Email Address:</label>
+                    <input type="email" name="email" id="email" placeholder="It's urgent!!!">
+
+                    <label for="password">Password:</label>
+                    <input type="password" name="password" id="password" placeholder="It's urgent!!!">
+
+                    <label for="password">Confirm Password:</label>
+                    <input type="password" name="confirm-password" id="confirm-password" placeholder="It's urgent!!!" class="mb-11">
+                    <br>
+                    <button class="w-fit p-3 px-10 font-normal text-secondary-color self-end bg-primary-color">Submit</button>
+
+                </form>
+            </div>
+            <a href="./signin.html" class="absolute block text-primary-color text-center bottom-5 underline md:hidden "> Already have an account?</a>
+        </div>
+
+    </section>
+    </body>
+    </html>
